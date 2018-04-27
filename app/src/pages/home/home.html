@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="brand">
+    
+    <p><span>i</span>Chat</p>
+  </div>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="Input NicName.." [(ngModel)]="nickname"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button full (click)="goToChat()">Chat</button>
+</ion-content>

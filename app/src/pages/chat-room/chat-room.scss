@@ -1,0 +1,63 @@
+page-chat-room {
+    ion-footer {
+        background: #ececec
+    }
+    ion-content{
+        .notes{
+            transform: rotate(180deg);
+            text-align: center;
+            color: #333
+        }
+        .scroll-content{
+            //background: #cecece;
+            transform: rotate(180deg);
+        }
+
+        .msg-row{
+            padding: 8px 0px;
+            transform: rotate(180deg);
+        }
+        .col{
+          padding: 0;
+        }
+        .msg-template{
+            list-style-type: none;
+            margin: 5px 10px;
+            padding: 10px;
+            width: max-content;
+           
+            
+          
+        }
+
+        .my-msg{
+            direction: rtl;
+            .msg-template{
+                background: #2b304a;
+                border-radius: 20px 20px 0px 20px;
+                p{
+                    line-height: 0;
+                    color:#9c9c9c;
+                    
+                }
+                span{
+                    text-align: left;
+                }
+            }
+        }
+        .another-msg{
+            direction: ltr;
+            .msg-template{
+                background: #607d8b;
+                border-radius: 20px 20px 20px 0px;
+                p{
+                    line-height: 0;
+                    color:#ccc;
+                }
+                span{
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
